@@ -1,24 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package sv.edu.ufg.Forms;
 
 import  sv.edu.ufg.Logica.Controller;
 
 /**
- *
  * @author Manuel Moran
  */
 public class Principal extends javax.swing.JFrame {
-    Controller controlador = new Controller();
     /**
      * Creates new form Principal
      */
     public Principal() {
         initComponents();
-        setLocation( 300, 300 );
+        setLocation( 593, 370 );
     }
 
     /**
@@ -91,11 +85,15 @@ public class Principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        jLabel4.setText( controlador.encripta( jTextField1.getText() ) );
+        
+        jLabel4.setText( Controller.encripta( jTextField1.getText() ) );
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        jLabel6.setText( controlador.desencripta( jLabel4.getText() ) );
+        
+        jLabel6.setText( Controller.desencripta( jLabel4.getText() ) );
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package sv.edu.ufg.Logica;
 
 import java.security.spec.KeySpec;
@@ -31,13 +27,6 @@ public class Controller {
     public static void main(String[] args) {
         Principal principal = new Principal();
         principal.setVisible( true );
-//        String encriptado = encripta( "Hola" );
-//        String desencriptado = desencripta( encriptado );
-//        System.out.println( "Vamos ha encriptar 'Hola' " );
-//        System.out.println( encriptado );
-//        System.out.println( "Vamos ha desencriptar '" + encriptado + "' " );
-//        System.out.println( desencriptado );
-//        
     }
     
     //AES256 
